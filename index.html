@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header__content">
+                <div class="header__content-logo">
+                    <a href="#"><img src="./img/logo.PNG" alt=""></a>
+                </div>
+                <div class="header__content-title">
+                    <h1>CỔNG DỊCH VỤ CÔNG CẤP XÃ</h1>
+                </div>
+                <div class="header__content-btn">
+                    <button type="button" class="btn btn-light btn-login">Đăng nhập</button>
+                    <button type="button" class="btn btn-light btn-register">Đăng ký</button>
+                </div>
+            </div>
+
+            <div class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="menu__item"><a href="#">Trang chủ</a></li>
+                    <li class="menu__item"><a href="">Sổ hộ khẩu</a>
+                        <ul class="menu__sub">
+                            <li class="menu__sub-item"><a href="./hoKhau.html">Cấp sổ hộ khẩu</a></li>
+                            <li class="menu__sub-item"><a href="./tackKhau.html">Tách sổ hộ khẩu</a></li>
+                            <li class="menu__sub-item"><a href="./doiChuHo.html">Thay đổi chủ hộ</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="">Cấp giấy</a>
+                        <ul class="menu__sub">
+                            <li class="menu__sub-item"><a href="./khaiSinh.html">Cấp giấy khai sinh</a></li>
+                            <li class="menu__sub-item"><a href="./tamVang.html">Cấp giấy tạm vắng</a></li>
+                            <li class="menu__sub-item"><a href="./tamTru.html">Cấp giấy tạm trú</a></li>
+                            <li class="menu__sub-item"><a href="./khaiTu.html">Cấp giấy chứng tử</a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="menu__item"><a href="">Báo cáo thống kê</a></li>
+                    <li class="menu__item"><a href="">Tài khoản</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="banner">
+                <div class="search">
+                    <input type="text" class="search__input" placeholder="Nhập từ khoá tìm kiếm">
+                    <div class="search__text">Tìm kiếm nâng cao</div>
+                    <div class="search__icon"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+            <div class="main__title">
+                <div class="main__title-banner">
+                    <div class="row section-five-text section-text">
+                        <h2 class="section-five__heading section-four__heading">Tin tức trong tuần</h2>
+                        <h1 class="section-five__title section-four__title">Những điểm nổi bật</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row widget__list">
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="http://baohoabinh.com.vn/Includes/NewsDetail/3_2020/dt_30320201520_1-img_8072.jpg"
+                                    alt="">
+                            </div>
+                            <div class="widget__item-title"><a href=""> Đóng góp vì cộng đồng</a></div>
+                            <div class="widget__item-desc"><a href="">Hai em nhỏ ủng hộ tiền phòng, chống dịch
+                                    Covid-19</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="http://tuyengiaoangiang.vn/images/2018/Thang3/khen-togiac-Trinh.jpg" alt="">
+                            </div>
+                            <div class="widget__item-title"><a href="">Cá nhân xuất sắc trong phong trào bảo vệ anh
+                                    ninh</a></div>
+                            <div class="widget__item-desc"><a href="">Chị Lương Thị Quỳnh phát hiện ra kẻ trộm cắp xe và
+                                    đã tố giác</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="https://vtv1.mediacdn.vn/thumb_w/650/2021/5/13/ba-hoc-sinh-tieu-hoc-tra-lai-42-trieu-dong-16208980158321416549336.jpg"
+                                    alt="">
+                            </div>
+                            <div class="widget__item-title"><a href="">Học sinh làm việc tốt</a></div>
+                            <div class="widget__item-desc"><a href="">Ba em học sinh trường Tiểu học Hải Hưng trả lại 42
+                                    triệu cho người đánh mất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="https://tayson.binhdinh.gov.vn/uploads/news/2021_04/fa97fa50e467e3d63ffbde59abaeef0c.jpg"
+                                    alt="">
+                            </div>
+                            <div class="widget__item-title"><a href="">Bầu cử đại biểu Quốc hội</a></div>
+                            <div class="widget__item-desc"><a href="">Hướng tới ngày bầu cử đại biểu Quốc hội
+                                    23/5/2021</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="https://bvtphue.thuathienhue.gov.vn/UploadFiles/VideoClip/Thumb/12-15/5K.jpg"
+                                    alt="">
+                            </div>
+                            <div class="widget__item-title"><a href="">Phòng chống dịch Covid-19</a></div>
+                            <div class="widget__item-desc"><a href="">Khuyến cáo người dân phòng chống dịch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 l-3 m-3 c-12">
+                        <div class="widget__item">
+                            <div class="widget__item-img">
+                                <img src="https://img.nhandan.com.vn/Files/Images/2021/05/18/bia-1621295159770.jpg"
+                                    alt="">
+                            </div>
+                            <div class="widget__item-title"><a href="">Tin tức dịch Covid-19</a></div>
+                            <div class="widget__item-desc"><a href="">Bản tin COVID-19 tối 18/5: Thêm 48 ca mắc mới, cả
+                                    nước có hơn 4 triệu lượt người được xét nghiệm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-text">
+            <div class="footer__info">
+                <div class="footer__home">Cơ quan chủ quản: Uỷ ban nhân dân xã Hải Hưng</div>
+                <div class="footer__phone">Tổng đài hỗ trợ: 0834598765</div>
+                <div class="footer__copyright">Copyright @2021</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- modal layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <!-- register form -->
+            <div class="modal__inner modal__inner-register">
+                <div class="auth-form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn switch-login">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Số CCCD của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Số điện thoại của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Xác nhận lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__police-text">
+                        <p>Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về
+                            <a href=""> Điều khoản dịch vụ</a> &
+                            <a href=""> Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class=" btn auth-form__btn-back btn-light">Trở lại</button>
+                        <button class="btn btn-light auth-form__btn-register">Đăng ký</button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- login form -->
+            <div class="modal__inner modal__inner-login">
+                <div class="auth-form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn switch-register">Đăng ký</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Số CCCD của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+
+                    </div>
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link forget">Quên mật khẩu</a>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class=" btn auth-form__btn-back btn-light">Trở lại</button>
+                        <button class="btn btn-light auth-form__btn-register">Đăng nhập</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

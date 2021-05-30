@@ -1,0 +1,102 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --orange-color: #ee4d2d;
+  --height-header: 120px;
+  --height-header-with-search: 74px;
+  --height-header-sort: 46px;
+  --color-menu: #ce7a58;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+.go-to-up {
+  animation: goUp 2s ease;
+  opacity: 1;
+}
+.go-to-up-delay {
+  animation: goUpDelay 2s ease;
+  -webkit-animation: goUpDelay 2s ease;
+}
+.go-to-down {
+  animation: goDown 2s ease;
+}
+@keyframes downUp {
+  0% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes goUp {
+  from {
+    opacity: 0;
+    transform: translateY(180px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes goUpDelay {
+  from {
+    opacity: 0;
+    transform: translateY(400px);
+    -webkit-transform: translateY(400px);
+    -moz-transform: translateY(400px);
+    -ms-transform: translateY(400px);
+    -o-transform: translateY(400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes goDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.row {
+  justify-content: center;
+}
+/* button */
+/* .btn {
+  min-width: 142px;
+  height: 36px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: var(--white-color);
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 2px;
+}
+*/
+.btn.btn--primary {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+} 
